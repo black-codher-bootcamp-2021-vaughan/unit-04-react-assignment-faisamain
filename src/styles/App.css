@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+
+body {
+background-color: #F7E2E2;
+margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  text-align: center;
+  color:#534340;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#rcorners {
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 20px;
+  width: 800px;
+  height: 150px;
+  justify-content: center;
+  
+}
+
+#container {
+  /* margin-right: auto;
+  margin-left: auto; */
+  width: 800px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+#images {
+  /* margin-right: 50px;
+  margin-left: 200px; */
+  
+}
