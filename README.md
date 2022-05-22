@@ -1,5 +1,7 @@
 # React Assessment
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6761132-0c29-4bbf-bb6d-4cb205736bee/deploy-status)](https://app.netlify.com/sites/mymusic-faisamain/deploys)
+
 For your unit 4 assessment you will be building a Media Store App that allows users to search the iTunes store for music, videos, TV shows and other media types.
 
 This repository contains a basic React app. To install the basic packages needed to run the app, run the following command in your terminal:
