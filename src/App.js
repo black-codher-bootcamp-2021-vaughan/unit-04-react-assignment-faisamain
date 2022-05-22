@@ -4,6 +4,9 @@ import Product from './components/product.js';
 import ProductList from './components/productList.js';
 import Products from './models/data.json';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Search from './components/search.js';
+import Header from './components/header.js';
+
 
 // import search from './components/search.js;'
 // import ReactDOM from 'react-dom';
@@ -20,7 +23,10 @@ function App() {
   return (
     <>
      <h1>My Music</h1>
+     <Search/>
      <ProductList Products={Products}/>
+     {/* <Header/> */}
+     
     
 
      {/* {Products.map((product) => (

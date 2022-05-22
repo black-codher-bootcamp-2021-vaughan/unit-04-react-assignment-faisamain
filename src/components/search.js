@@ -1,19 +1,27 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react';
 
-// const search = (props) => {
-// function search (props){
-//     console.log(props) 
-//     return ( <div>
-//     <h1>{props.title}</h1>
-//     <p>{props.bio}</p>
+const propTypes = {};
+const defaultProps = {};
 
-// {/* <form>
-//     <input type="text">
-// <input type="submit" value="Submit">
-// </form> */}
+const Search = (props) => {
 
-// </div> )
-// }
+    const handleSubmit = (event) =>{
+        event.preventDefault();
+        props.search(props.term);
+    };
 
-// export default search;
+    return <div id="search">
+        <form onSubmit={handleSubmit}>
+        <label>
+            <input type="text" placeholder="Enter search term..." id="term" name="term" value={props.term} onChange={(e) => props.setTerm(e.target.value)}/>
+        </label>
+        <input type="submit" value="Search"/>
+        </form>
+        <h1>{props.term && 'Searching for terms:' + props.term}</h1>
+    </div>
+}
+
+Search.propTypes = propTypes;
+Search.defaultProps = defaultProps;
+
+export default Search;
