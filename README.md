@@ -1,6 +1,6 @@
 # React Assessment
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b6761132-0c29-4bbf-bb6d-4cb205736bee/deploy-status)](https://app.netlify.com/sites/mymusic-faisamain/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61d04475-9ab1-484a-8b1f-f0e7faaaa00f/deploy-status)](https://app.netlify.com/sites/mymusic-faisamain/deploys)
 
 For your unit 4 assessment you will be building a Media Store App that allows users to search the iTunes store for music, videos, TV shows and other media types.
 
